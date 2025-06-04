@@ -1,2 +1,28 @@
 Typescript Functions practice
 Question 1 
+const num:number[]=[1,2,3,4]
+const string = nums.map((num):string => `Number: ${num}`);
+
+Question 2
+type Product ={
+id:number
+name:string
+price:number
+}
+const product = Product[] = [
+{id :1 , name:"Ali", price:20000}
+{id :2 , name:"sam", price:5000}
+]
+const productName = product.map(p => p.name);
+
+Next transform
+
+type Product = {
+label : string
+price :number 
+}
+
+const productDetail : Product[] = products.map(p=>({
+label:p.name,
+price:p.price,
+}))
