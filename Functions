@@ -26,3 +26,6 @@ const productDetail : Product[] = products.map(p=>({
 label:p.name,
 price:p.price,
 }))
+
+Question 3
+const
